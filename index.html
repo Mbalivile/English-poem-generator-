@@ -8,6 +8,7 @@
   </head>
  
   <body>
+  <div class="container">
   <header>
     <h1>Welcome to the AI Poem Generator</h1>
   </header>
@@ -15,10 +16,11 @@
     <form>
       <input type="text" placeholder="Enter the topic of the English poem"
       autofocus required 
-      autocomplete="off"/>
-      <input type="Submit"
+      autocomplete="off"
+      class="instructions"/>
+      <input type="Submit" class="Submit-button"/>
    </form>
-   <div>
+   <div class="poem">
     Roses are red <br/>
     Violents are blue
    </div>
@@ -38,6 +40,7 @@
         >hosted on Netlify</a
       >.
     </footer>
+    </div>
 
     <script src="src/index.js"></script>
   </body>
